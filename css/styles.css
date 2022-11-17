@@ -1,0 +1,232 @@
+h1 {
+  font-family: octobre;
+  src: url(octobre_bold.otf);
+  color:#4F2481;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+  color:#B3DEFD;
+}
+
+h3 {
+  font-family: 'DM Serif Display', serif;
+  color:#3E002F;
+}
+
+p {
+  color:#6495ED;
+  font-family: 'DM Serif Display', serif;
+}
+
+@font-face {
+  font-family: "octobre";
+  src: url("fonts/minecraft.ttf")
+}
+
+.redtext {
+  color:red;
+}
+
+.pinktext {
+  color:#FF52FC
+}
+
+.p1 {
+  color:#5C003C
+}
+
+.p2 {
+  color:#75004C
+}
+
+.p3 {
+  color:#92005F
+}
+
+.p4 {
+  color:#A8006D
+}
+
+.p5 {
+  color:#C0007D
+}
+
+.p6 {
+  color:#D8008D
+}
+
+.p7 {
+  color:#F0009C
+}
+
+.bluetxt {
+  color:#B3DEFD
+}
+
+.bluetext1 {
+  color:#799BDC;
+}
+
+.bluetext2 {
+  color:#6986CD;
+}
+
+.bluetext3 {
+  color:#565EC0;
+}
+
+.bluetext4{
+  color:#5748B2;
+}
+
+.bluetext5 {
+  color:#5748B2;
+}
+
+.darktext {
+  color:#4F2481;
+}
+
+.size1 {
+  font-size:600%
+}
+
+.size2 {
+  font-size:400%
+}
+
+.size3 {
+  font-size:300%
+}
+
+  .center {
+    text-align:center;
+  }
+
+.bold {
+  font-weight: bold;
+}
+
+.bg {
+    width: 400px;
+    background: url(e.png) 50% 50%;
+}
+
+.rodinabg {
+  width:100%;
+  height:100vh;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:-15;
+  top:0;
+  left:0;
+  opacity:0.2;
+  text-align:center;
+  mix-blend-mode:normal;
+}
+
+.backgroundimage {
+  width:100%;
+  height:100vh;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:-10;
+  top:-15em;
+  left:-45em;
+  opacity:0.6;
+  text-align:center;
+  mix-blend-mode:hard-light;
+}
+
+.backgroundimage2 {
+  width:15%;
+  height:100vh;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:-15;
+  bottom:20;
+  left:5em;
+  top:30em;
+  mix-blend-mode:normal;
+}
+
+.backgroundimage3 {
+  width:150%;
+  height:100vh;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:-10;
+  bottom:-30em;
+  mix-blend-mode:soft-light;
+}
+
+.backgroundimage4 {
+  width:150%;
+  height:100vh;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:-10;
+  top:0em;
+  left:40em;
+  opacity: 0.4;
+  mix-blend-mode:hard-light;
+}
+
+.floatingimage {
+  width:25%;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:10;
+  bottom:-5em;
+  right:-10em;
+  text-align:center;
+  mix-blend-mode:hard-light;
+}
+
+.floatingimage2 {
+  width:90%;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:10;
+  top:0 ;
+  right:-40em;
+  text-align:center;
+  mix-blend-mode:overlay;
+}
+
+.floatingimage3 {
+  width:25%;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:10;
+  bottom:20;
+  left:25em;
+  top:-5em;
+  mix-blend-mode:hard-light;
+}
+
+.floatingimage4 {
+  width:25%;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:10;
+  top:-10em;
+  right:0;
+  text-align:center;
+  mix-blend-mode:hard-light;
+}
+
+img {
+  max-width:100%;
+  max-height:100vh;
+}
